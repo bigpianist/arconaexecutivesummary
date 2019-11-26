@@ -10,7 +10,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 /md16.mp3?autoplay=1&loop=1&controls=0
 <audio controls>
-  <source src="/md16.mp3" type="audio/mpeg">
+  <source src="https://bigpianist.github.io/arconaexecutivesummary/md16.mp3" type="audio/mpeg">
 </audio>
 
 ```markdown
