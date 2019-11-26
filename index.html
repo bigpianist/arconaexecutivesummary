@@ -1,28 +1,55 @@
----
-layout: README
-title: Arcona Executive Summary
----
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hank Quinlan, Horrible Cop</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Hi there, I'm Hank Quinlan!</h1>
+				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+    		</div><!-- /.blurb -->
+    		
+			<audio controls>
+			  <source src="https://bigpianist.github.io/arconaexecutivesummary/md16.mp3" type="audio/mpeg">
+			</audio>
 
-<audio controls>
-  <source src="https://bigpianist.github.io/arconaexecutivesummary/md16.mp3" type="audio/mpeg">
-</audio>
-
-<div id="waveform">
-	<p>Test</p>
-</div>
+			<div id="waveform">
+				<p>Test</p>
+			</div>
 
 
-<script src="https://unpkg.com/wavesurfer.js">
-	
-</script>
+			<script src="https://unpkg.com/wavesurfer.js">
+				
+			</script>
 
 
-<script type="text/javascript">
-	
-	var wavesurfer = WaveSurfer.create({
-	    container: '#waveform',
-	    waveColor: 'violet',
-	    progressColor: 'purple'
-	});
-	wavesurfer.load('https://bigpianist.github.io/arconaexecutivesummary/emotions3.wav');
-</script>
+			<script type="text/javascript">
+				
+				var wavesurfer = WaveSurfer.create({
+				    container: '#waveform',
+				    waveColor: 'violet',
+				    progressColor: 'purple'
+				});
+				wavesurfer.load('https://bigpianist.github.io/arconaexecutivesummary/emotions3.wav');
+			</script>
+
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
