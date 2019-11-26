@@ -13,6 +13,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
   <source src="https://bigpianist.github.io/arconaexecutivesummary/md16.mp3" type="audio/mpeg">
 </audio>
 
+<script type="text/javascript">
+	var wavesurfer = WaveSurfer.create({
+	    container: '#waveform',
+	    waveColor: 'violet',
+	    progressColor: 'purple'
+	});
+	wavesurfer.load('https://bigpianist.github.io/arconaexecutivesummary/md16.mp3');
+</script>
 ```markdown
 Syntax highlighted code block
 
@@ -42,3 +50,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 {% include open-embed.html %}
+
+<script src="https://unpkg.com/wavesurfer.js"></script>
