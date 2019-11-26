@@ -17,6 +17,10 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 	<p>Test</p>
 </div>
 
+
+<script src="https://unpkg.com/wavesurfer.js"></script>
+
+
 <script type="text/javascript">
 	var wavesurfer = WaveSurfer.create({
 	    container: '#waveform',
@@ -56,4 +60,3 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 {% include open-embed.html %}
 
-<script src="https://unpkg.com/wavesurfer.js"></script>
