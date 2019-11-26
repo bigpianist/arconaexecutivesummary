@@ -12,7 +12,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 <audio controls>
   <source src="https://bigpianist.github.io/arconaexecutivesummary/md16.mp3" type="audio/mpeg">
 </audio>
-
+<div id="waveform"></div>
 <script type="text/javascript">
 	var wavesurfer = WaveSurfer.create({
 	    container: '#waveform',
